@@ -8,13 +8,14 @@
 .dictionary form {
   margin-top: 40px;
   box-shadow: 0px 0px 15px 3px rgb(72, 138, 143);
-  padding: 30px 185px;
+  padding: 30px 100px;
   border-radius: 10px;
+  text-transform: capitalize;
 }
 
 .dictionary input {
-  width: 100%;
   border-radius: 5px;
+  width: 100%;
 }
 
 .dictionary h4 {

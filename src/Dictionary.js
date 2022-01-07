@@ -30,8 +30,9 @@ function handelKeywordChange(event){
             <form onSubmit={search}>
             <h4>What word do you want to look up?</h4>
                 <input type="search" placeholder="Search for a word" onChange={handelKeywordChange}/>
+                <Results results={results}/>
             </form>
-            <Results results={results}/>
+            
         </div>
        
         
