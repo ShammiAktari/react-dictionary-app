@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h1><img src="https://img.icons8.com/fluency/48/000000/books.png" alt="dictionary-image"/>
+        <h1><img src="https://img.icons8.com/fluency/48/000000/books.png" alt="Dictionaryimage"/>
         Dictionary App</h1>
       </div>
       <main>
