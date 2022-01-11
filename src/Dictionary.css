@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-.dictionary form {
+.Dictionary form {
   margin-top: 40px;
   box-shadow: 0px 0px 15px 3px rgb(72, 138, 143);
   padding: 30px 100px;
@@ -13,17 +13,17 @@
   text-transform: capitalize;
 }
 
-.dictionary input {
+.Dictionary input {
   border-radius: 5px;
   width: 100%;
 }
 
-.dictionary h4 {
+.Dictionary h4 {
   font-weight: 900;
   opacity: 0.8;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .dictionary form {
+  .Dictionary form {
     margin: 20px 0;
   }
 }

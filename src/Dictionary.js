@@ -6,10 +6,9 @@ import "./Dictionary.css";
 
 export default function Dictionay(){
     const [keyword, setKeyword] = useState ("");
-    const [results, setresults] = useState (null);
+    const [results, setResults] = useState (null);
     function getDictionaryResponse(response){
-        console.log(response.data[0]);
-        setresults(response.data[0]);
+        setResults(response.data[0]);
     }
 
 function search(event){
@@ -26,7 +25,7 @@ function handelKeywordChange(event){
 }
 
     return(
-        <div className="dictionary">
+        <div className="Dictionary">
             <form onSubmit={search}>
             <h4>What word do you want to look up?</h4>
                 <input type="search" placeholder="Search for a word" onChange={handelKeywordChange}/>
