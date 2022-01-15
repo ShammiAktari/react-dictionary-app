@@ -1,12 +1,14 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
+import "./Results.css";
 
 export default function Results(props){
     if(props.results){
     return(
 <div className="results">
-<h2 className="mt-4 fw-bolder">{props.results.word}</h2>
+    <section>
+<h2 className="fw-bolder">{props.results.word}</h2>
 
 {props.results.phonetics.map(function(phonetic, index){
     return(
@@ -15,6 +17,7 @@ export default function Results(props){
         </div>
     );
 })}
+</section>
 <br/>
 {props.results.meanings.map(function(meaning, index){
     return(

@@ -10,7 +10,7 @@ function App() {
         Dictionary App</h1>
       </div>
       <main>
-        <Dictionay />
+        <Dictionay defaultKeyword="star"/>
       </main>
       <br/>
       <small>This was coded by Shammi Aktari and open source on GitHub.</small>
