@@ -40,7 +40,8 @@ if (loaded){
             <section>
             <form onSubmit={handleSearch}> 
             <h4>What word do you want to look up?</h4>
-                <input type="search" placeholder="Search for a word" onChange={handelKeywordChange}/>
+                <input type="search" placeholder="Search for a word" onChange={handelKeywordChange}
+                defaultValue={props.defaultKeyword}/>
                 
             </form>
             <div className="hint">

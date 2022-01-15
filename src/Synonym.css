@@ -6,4 +6,15 @@
 .Synonyms li {
   display: inline;
   padding-right: 15px;
+  border: 1px solid #ddd;
+  padding: 3px 8px;
+  border-radius: 10px;
+  line-height: 2.5;
+  margin-right: 5px;
+}
+
+.Synonyms .similar {
+  color: aquamarine;
+  font-weight: 700;
+  margin-right: 5px;
 }

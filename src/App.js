@@ -10,10 +10,10 @@ function App() {
         Dictionary App</h1>
       </div>
       <main>
-        <Dictionay defaultKeyword="star"/>
+        <Dictionay defaultKeyword="shadow"/>
       </main>
       <br/>
-      <small>This was coded by Shammi Aktari and open source on GitHub.</small>
+      <small className="links">This was coded by <a href="https://www.linkedin.com/in/shammiaktari/">Shammi Aktari</a> and <a href="https://github.com/ShammiAktari/react-dictionary-app">open source</a> on GitHub.</small>
     </div>
   );
 }

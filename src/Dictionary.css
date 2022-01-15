@@ -8,9 +8,9 @@
 .Dictionary section {
   background: white;
   margin-top: 20px;
-  box-shadow: 0px 0px 15px 3px rgb(72, 138, 143);
+  box-shadow: 1px 5px 25px rgb(207, 211, 212);
   padding: 30px 100px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-transform: capitalize;
 }
 
