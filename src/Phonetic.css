@@ -22,3 +22,13 @@
 .Phonetic {
   margin-bottom: 20px;
 }
+
+@media (max-width: 764px) {
+  .Phonetic a {
+    font-size: 10px;
+  }
+
+  .Phonetic .text {
+    font-size: 10px;
+  }
+}

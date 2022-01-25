@@ -10,3 +10,15 @@
   font-weight: 500;
   margin-top: 10px;
 }
+
+@media (max-width: 764px) {
+  .Meaning h3 {
+    font-size: 20px;
+  }
+
+  .definition,
+  .example,
+  .Synonyms {
+    font-size: 11px;
+  }
+}

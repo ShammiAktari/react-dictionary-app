@@ -18,3 +18,11 @@
   font-weight: 700;
   margin-right: 5px;
 }
+
+@media (max-width: 764px) {
+  .Synonyms li {
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.5;
+  }
+}

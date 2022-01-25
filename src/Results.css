@@ -2,3 +2,9 @@
   font-size: 45px;
   margin-bottom: 20px;
 }
+
+@media (max-width: 764px) {
+  .results h2 {
+    font-size: 25px;
+  }
+} ;
