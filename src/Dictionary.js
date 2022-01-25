@@ -9,7 +9,7 @@ export default function Dictionay(props){
     const [keyword, setKeyword] = useState (props.defaultKeyword);
     const [results, setResults] = useState (null);
     const [loaded,setLoaded] = useState(false);
-    const [photos,setPhotos] = useState(null)
+    const [photos,setPhotos] = useState(false)
 
     
     
