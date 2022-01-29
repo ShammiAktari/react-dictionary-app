@@ -6,13 +6,18 @@
 }
 
 .App h1 {
-  background-color: rgb(218, 226, 225);
+  background-color: #ffffff;
   font-size: 58px;
   font-weight: 900;
-  box-shadow: 0px 0px 15px 3px rgb(235, 246, 247);
   padding: 30px 150px;
   margin-top: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.App-header h1 img {
+  max-width: 25%;
+  margin-left: -50px;
+  border-radius: 50%;
 }
 
 @media (max-width: 764px) {

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h1><img src="https://img.icons8.com/fluency/48/000000/books.png" alt="Dictionaryimage"/>
+        <h1><img src={require('./icon.png')} alt="Dictionaryicon"/>
         Dictionary App</h1>
       </div>
       <main>
